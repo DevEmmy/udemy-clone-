@@ -1,0 +1,115 @@
+header{
+	margin-top: 0;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+	font-family: verdana;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+header h1{
+	text-align: center;
+	color: rgb(20,30,150);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5rem;
+}
+
+.hamburger{
+	width: 30px;
+	height: auto;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.line{
+	width: 100%;
+	height: 3px;
+	margin-top: 2px;
+	border-bottom: 10px;
+	background: rgb(20,30,150);
+}
+
+aside h2{
+	padding: 30px;
+	font-family: arial;
+}
+
+
+.login-section div {
+	width: 90%;
+	margin: 20px auto;
+	font-family: verdana;
+}
+
+.content, input{
+	border: 2px solid rgb(200,200,200);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.facebook{
+	background: rgb(20,20,200);
+	color: #fff
+}
+
+input{
+	padding: 20px;
+	width: 50%;
+	text-align: start;
+	font-size: 20px;
+	margin: 10px auto;
+}
+
+.submit{
+	width: 90%;
+	background: rgb(20,30,150);
+	border-radius: 4px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.reset-password, .sign-up{
+	text-align: center;
+	font-family: verdana;
+	font-size: 18px;
+}
+
+.reset-password a, .sign-up a{
+	color: rgb(20,30,150);
+	text-decoration: none;
+}
+
+.branding{
+	padding: 30px;
+	font-family: verdana;
+	width: 60%;
+	line-height: 2rem;
+}
+
+section ul{
+	list-style-type: none;
+	display: block;
+	line-height: 2rem;
+}
+
+section li a{
+	display: block;
+	font-size: 20px;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+
+footer{
+	font-family: verdana;
+	color: black;
+	padding: 20px;
+}
